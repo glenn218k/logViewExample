@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ContentCountToVisibilityConverter.cs" />
+    <Compile Include="LogEntryViewModel.cs" />
+    <Compile Include="MainWindowViewModel.cs" />
     <Compile Include="PropertyChangedBase.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
