@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace LogViewExample
 {
-    public class LogEntry
+    public class LogEntry : PropertyChangedBase
     {
         public DateTime DateTime { get; set; }
 
